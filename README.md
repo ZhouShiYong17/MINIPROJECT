@@ -5,7 +5,7 @@ Lab: A135<br>
 Team:7<br>
 Member:<br>
   1.ZHOU SHIYONG (@ZhouShiYong17)<br>
-  2.Ong Xin Ning Trini(@trinionggg<br>
+  2.Ong Xin Ning Trini(@trinionggg)<br>
   3.Yao YuZhi(@smyaokai@gmail.com)<br>
 
 
