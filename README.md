@@ -68,7 +68,7 @@ We used KMeans and GMM to assess the number of champion types via unsupervised l
 **`For further findings and explanations, please refer to the Jupyter Notebook on Data Analysis on Champions and Machine Learning for Champions`**
 
 For question:"If my team is formed up by Jayce,	Zac,Taliyah,Xayah	and Thresh. when will my team perform at its best in the game?"<br>
-‘Input: an arrary consisits of 5 five champions ------>output either 0, 1, 2 where 0 corrsponding to early game, 1 corresponding to middle game and 2 corresponding to lategame '
+‘Input: an arrary consisits of 5 five champions ------>output either 0, 1, 2 where 0 corrsponding to early game, 1 corresponding to middle game and 2 corresponding to lategame '<br>
 We first removed the lose team records from the dataset and then splited it into three datasets for early, mid, and late game periods. This allowed us to find the frequency of champions appearing in each of datasets. We then split the data into X and y, where X consisted of the names of 5 champions, and y was the game duration. After comparison, we found that RandomForest had a relatively excellent predictive result. With 'Accuracy(test)' 44.90, Accuracy(train)'99.48', 'Cross validation score'0.5021 and 'Standard Deviation' 0.08
 **`For further findings and explanations, please refer to the Jupyter Notebook on Data Analysis for Competitive matches and Find_Early_Mid_Late_game_team_comp`**
 
@@ -95,3 +95,4 @@ The result as shwon:‘{'criterion': 'gini',
 By doing so, the accuracy of the model has improved from 44.9 to 51.02%
 **`For further findings and explanations, please refer to the Jupyter Notebook on Data Analysis for Competitive matches and Find_Early_Mid_Late_game_team_comp`**
 ## 5 Conclusion
+Due to the limit of time of this assignment, this model ONLY has around 53% of  accuracy .  (elaborate it more)
