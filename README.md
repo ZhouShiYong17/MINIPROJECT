@@ -6,7 +6,7 @@ Team:7<br><br>
 Member:<br>
  &nbsp; &nbsp;  1. Zhou ShiYong (@ZhouShiYong17)<br>
   &nbsp;&nbsp;  2. Ong Xin Ning Trini(@triniong2013@gmail.com><br>
-  &nbsp; &nbsp; 3. Yao YuZhi(@smyaokai@gmail.com)<br>
+  &nbsp; &nbsp; 3. Yao YuZhu(@smyaokai@gmail.com)<br>
 
 ## Description: <br>
 This repository contains all the Jupyter Notebooks, datasets, images, video presentations, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI.
