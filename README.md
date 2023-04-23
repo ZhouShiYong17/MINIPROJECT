@@ -69,7 +69,7 @@ We used KMeans and GMM to assess the number of champion types via unsupervised l
 For question:"If my team is formed up by Jayce,	Zac,Taliyah,Xayah	and Thresh. when will my team perform at its best in the game?"<br>
 ‘Input: an arrary consisits of 5 five champions ------>output either 0, 1, 2 where 0 corrsponding to early game, 1 corresponding to middle game and 2 corresponding to lategame '<br>
 We first removed the lose team records from the dataset and then splited it into three datasets for early, mid, and late game periods. This allowed us to find the frequency of champions appearing in each of datasets. We then split the data into X and y, where X consisted of the names of 5 champions, and y was the game duration. After comparison, we found that RandomForest had a relatively excellent predictive result. With 'Accuracy(test)' 44.90, Accuracy(train)'99.48', 'Cross validation score'0.5021 and 'Standard Deviation' 0.08. <br>
-RandomForest is chosen as our model since it works well with classification and regression as it builds decision trees with various samples and outputs the majority vote for classification
+RandomForest is chosen as our model since it works well with classification and regression as it builds decision trees with various samples and outputs the majority vote for classification. <br>
 **`For further findings and explanations, please refer to the Jupyter Notebook on Data Analysis for Competitive matches and Find_Early_Mid_Late_game_team_comp`**
 
 
@@ -79,7 +79,7 @@ We use various techniques to make our data more palpable for machine learning. F
 We also have to label encode our `y` into numerical values.`partype` also has to be hotencoded since it's not our output variable.We also performed PCA on the data and got a model that reduced our data to just 19 dimensions while preserving 95% of the variance. However, there is no real need to perform PCA as our data set is pretty small, standing at 143 champions and about 40 features.<br>
 
 We input our training sets into 10 different models( LogisticRegression,KneighborsClassifier ...), among which we found logistic regression to be the best model with corss-val of 0.6742.LogisticRegression is able to detect the champion types with amazing accuracy compared to GaussianMixture, this shows that supervised learning is vastly superior to unsupervised techniques.<br>
-LogisticRegression uses a logistic model that models the probability of the champion being one of the types or subtypes based on the statistics of attributes of the champion.
+LogisticRegression uses a logistic model that models the probability of the champion being one of the types or subtypes based on the statistics of attributes of the champion. <br>
 **`For further findings and explanations, please refer to the Jupyter Notebook on Data Analysis on Champions and Machine Learning for Champions`**
 
 <br><br>
