@@ -96,3 +96,12 @@ By doing so, the accuracy of the model has improved from 44.9 to 51.02%
 **`For further findings and explanations, please refer to the Jupyter Notebook on Data Analysis for Competitive matches and Find_Early_Mid_Late_game_team_comp`**
 ## 5 Conclusion
 Due to the limit of time of this assignment, this model ONLY has around 53% of  accuracy .  (elaborate it more)
+
+
+## Reference 
+ https://www.kaggle.com/chuckephron/leagueoflegends (“Competitive Matches” - matchinfo.csv)<br>
+ http://ddragon.leagueoflegends.com/cdn/9.2.1/data/en_US/champion.json (list of champions in the game)<br>
+ 
+## Team Contribution
+--In our team, everyone participates and contributes equally in tasks such as data collection, programming, scripting and demonstrating
+
